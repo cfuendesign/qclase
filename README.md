@@ -1,6 +1,29 @@
-- Construido y compilado con [Deno](https://deno.land/), el runtime jurásico y Typescript-céntrico
+<p align="middle">
+  <img width="300" src="https://i.imgur.com/YAfBLzu.png" />
+</p>
+
+<h1 align="middle">
+  qclase
+</h1>
+
+<p align="middle">qclase es una aplicación de línea de comandos creada para visualizar horarios de estudiantes de la U. El Bosque.</p>
+
+### ¿Qué?
+
+Normalmente los horarios pueden consultarse mediante la aplicación web [Consultar Espacio Físico](https://artemisa.unbosque.edu.co/serviciosacademicos/EspacioFisico/Interfas/EspaciosFisicosAsigandosReporte.php) o mediante el [Sistema SALA](https://artemisa.unbosque.edu.co/sala/?tmpl=login&option=login). Sin embargo, qclase permite visualizar estos horarios desde la terminal, lo cual es conveniente cuando se está desarrollando software o administrando servidores.
+
+### ¿Por qué?
+
+- Tengo mala memoria.
+- No quiero tener que salir de [Neovim](https://github.com/neovim/neovim) cuando estoy desarrollando sitios web solo para ver mi horario, mucho menos de mi terminal.
+- Soy obsesivo con el desempeño, la velocidad y la productividad. Por esto, tener que abrir una aplicación web ya sea en mi teléfono o en mi equipo es una pérdida de tiempo grandísima.
+- Mi computadora es algo lenta y los navegadores web lo son aún más. Quiero tener mi horario a un comando y unos milisegundos de espera de distancia.
+
+### ¿Cómo?
+
+- Construido y compilado con [Deno](https://deno.land/), el runtime jurásico y Typescript-céntrico para ECMAScript (JavaScript).
 - Interfaz de línea de comando y gráficos ASCII logrados mediante [Cliffy](https://cliffy.io/), una librería brutal para la creación de aplicaciones de línea de comandos con Deno.
-- Datos de los horarios consultados mediante [Hermes](https://github.com/cfuendesign/espaciofisico-hermes), una chimba de librería de Deno para consumir la info de los horarios.
+- Datos de los horarios consultados mediante [Hermes](https://github.com/cfuendesign/espaciofisico-hermes), una chimba de librería de Deno para consumir la info de los horarios de la UEB.
 
 ### Manos a la obra
 
